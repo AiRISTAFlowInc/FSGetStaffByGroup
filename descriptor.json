@@ -1,0 +1,41 @@
+{
+  "name": "Get Staff By Group",
+  "type": "flogo:activity",
+  "version": "0.0.1",
+  "title": "A1: Get Staff By Group",
+  "description": "Returns JSON string of staff",
+  "homepage": "https://github.com/AiRISTAFlowInc/FlowActivities/tree/main/GetStaffByGroup",
+  "input": [
+    {
+      "name": "IP",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "CustomerId",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "Username",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "Password",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "GroupItem",
+      "type": "string",
+      "required": true
+    }
+  ],
+  "output": [
+    {
+      "name": "Staff",
+      "type": "array"
+    }
+  ]
+}
