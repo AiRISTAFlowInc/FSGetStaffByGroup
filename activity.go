@@ -121,7 +121,6 @@ func RestCallGetAllByGroup(IP string, customerId string, username string, passwo
 //RestCallGetGroups ---------------------------------------------------- RestCallGetGroups
 //http://52.45.17.177:802/XpertRestApi/api/MetaData/GetGroups?CustomerId=1
 func RestCallGetGroups(IP string, customerId string, username string, password string )GetGroupsResponse{
-	fmt.Println("rest call")
 	var responseArr GetGroupsResponse
 	// Create an HTTP client
 	client := &http.Client{}
